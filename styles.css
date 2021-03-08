@@ -60,6 +60,10 @@ img {
     text-decoration: none;
 }
 
+#languageButton a:hover {
+    text-decoration: underline;
+}
+
 /* Main content under navbar */
 
 #main-content h1 {
