@@ -4,40 +4,103 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <!-- Bootstrap CDN -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!-- Custom CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="styles.css">
     <title>Climb Taiwan</title>
 </head>
 <body>
-    <nav class="navbar navbar-default navbar-background navbar-fixed-top">
-        <div class="container-fluid">
-          <div class="navbar-header">
-            <a class="navbar-brand" href="#">
-              <img alt="Brand" src="imgs/logoBlack.png">
-            </a>
-          </div>
-          <div id="languageButton">
-            <span><a href="#">English/中文</a></span>
-          </div>
-            <ul class="nav navbar-nav" id="navbar-links">
-              <li><a href="#">Information</a></li>
-              <li><a href="#">Long Dong</a></li>
-              <li><a href="#">Re Hai</a></li>
-              <li><a href="#">Big Cannon Cliff</a></li>
-              <li><a href="#">Guan Zi Ling</a></li>
-              <li><a href="#">Shou Shan</a></li>
+  <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light static-top p-0 sticky-top">
+          <a class="navbar-brand" href="#">
+                <img src="imgs/Climb_Taiwan_Logo_Black_SVG.svg" alt="">
+          </a>
+          <button class="navbar-toggler mr-1" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse justify-content-end" id="navbarResponsive">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a class="nav-link" href="#">Information</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" id="longDongNavLink">Long Dong</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Re Hai</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Big Cannon Cliff</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Guan Zi Ling</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Shou Shan</a>
+              </li>
             </ul>
+          </div>
         </div>
       </nav>
-
-      <div id="main-content">
-        <h1>Welcome to<br>
-          <span id="climbTaiwan">Climb Taiwan!</span></h1> 
+      <!-- Welcome to Climb Taiwan! -->
+      <div id="content">
+        <div class="jumbotron">
+            <h1 class="font-weight-bold">Welcome to</h1>
+            <h1 class="font-weight-bold">Climb Taiwan!</h1>
+        </div>
       </div>
-      </body>
+      <!-- Individual area card -->
+      <div class="container d-none" id="longDongCard">
+        <div class="card text-left">
+          <div class="card-body">
+            <h5 class="card-title align-left">Long Dong</h5>
+            <img class="mb-5" src="imgs/longdongexample.jpg" alt="Card image cap" id="longdongimg">
+            <h6 class="card-title align-left">Overview</h6>
+            <p class="card-text">Long Dong is without a doubt the premier climbing area of Taiwan. 
+              It offers world class climbing on bullet hard sandstone, against an atmospheric 
+              coastal backdrop. There are a huge number of bolted sport routes and trad routes
+              across a wide range of grades, as well as a handful of deep water solo and bouldering 
+              routes. Long Dong is divided up into six main crags.
+            </p>
+            <h6 class="card-title">How to get there</h6>
+            <p class="card-text">Long Dong is about one hour away from Taipei by car.</p>
+            <h5 class="card-title align-left">Climbs at this location (530)</h5>
+            <table class="table table-striped">
+              <thead>
+                <tr>
+                  <th colspan="4">Back Door - B1</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <th scope="row">Bo</th>
+                  <td>5.7</td>
+                  <td>Trad</td>
+                </tr>
+                <tr>
+                  <th scope="row">Po</th>
+                  <td>5.5</td>
+                  <td>Trad</td>
+                </tr>
+                <tr>
+                  <th scope="row">Mo</th>
+                  <td>5.6</td>
+                  <td>Trad</td>
+                </tr>
+                <tr>
+                  <th scope="row">Fo</th>
+                  <td>5.7</td>
+                  <td>Trad</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
 
-    
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
 </body>
 </html>
