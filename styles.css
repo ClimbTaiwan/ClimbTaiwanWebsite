@@ -47,13 +47,13 @@ img {
         margin-left: 0;
     }
 }
+/* 
+#mainNav {
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,.8);
+} */
 
-nav {
-    box-shadow: 0 2px 4px 0 rgba(0,0,0,.8);
-}
-
-.navbar-nav {
-    margin-right: 5%;
+#mobileBrand {
+    margin-bottom: 0;
 }
 
 .nav-item {
@@ -64,7 +64,7 @@ nav {
     float: right;
     margin-right: 2vw;
     max-height: 50vh;
-    max-width: 35vw;
+    max-width: 40vw;
 }
 
 .card-body {
