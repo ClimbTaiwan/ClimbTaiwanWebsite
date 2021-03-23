@@ -52,6 +52,8 @@ body {
     .jumbotron {
         top: 20%;
         left: 0;
+        margin: auto;
+        width: 100%;
     }
 }
 
