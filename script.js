@@ -1,6 +1,3 @@
-const navLinks = document.querySelectorAll(".nav-link");
-const cragCard = document.querySelector('#cragCard')
-
 const LongDong = {
     name: "Long Dong",
     overview: "Long Dong is without a doubt the premier climbing area of Taiwan. It offers world class climbing on bullet hard sandstone, against an atmospheric coastal backdrop. There are a huge number of bolted sport routes and trad routes across a wide range of grades, as well as a handful of deep water solo and bouldering routes. Long Dong is divided up into six main crags.",
@@ -221,17 +218,34 @@ crags.push(BigCannonCliff);
 crags.push(GuanZiLing);
 crags.push(ShouShan);
 
+const navLinks = document.querySelectorAll(".nav-link");
+const cragCard = document.querySelector('#cragCard')
 const cragName = document.querySelector("#cragName");
 
+//For each link in the navbar
 navLinks.forEach((link) => {
+    //when the link is clicked
     link.addEventListener('click', (e) => {
+        //text of the link
         const linkText = e.target.innerHTML;
-        crags.forEach((crag) => {
-            if(crag.name == linkText) {
-                checkCragCardContent(crag);
-                cragCard.classList.toggle('d-none');
-            }
-        })
+        //if the information card's name is the same as the link text,
+        //take it off the page and clear its content
+        if(cragName.innerHTML == linkText) {
+            cragCard.classList.add('d-none');
+            clearCragContent();
+        // if that is not the case
+        } else {
+            //check each crag in the crags array
+            crags.forEach((crag) => {
+                //if a crag's name matches the link text:
+                if(crag.name == linkText) {
+                    //fill out the card with the crag's info
+                    checkCragCardContent(crag);
+                    //remove the class that makes the card not displayed
+                    cragCard.classList.remove('d-none');
+                }
+            })
+        }
     })
 });
 
