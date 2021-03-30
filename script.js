@@ -210,7 +210,7 @@ const BigCannonCliff = {
     imgURL: "./imgs/BigCannonCliff.jpg",
     rocks: [
         {
-            name: "",
+            name: "All Routes",
             routes: [
                 {
                   "name": "Crack",
@@ -919,6 +919,10 @@ const createCragCard = function(crag) {
             tbody.appendChild(tr);
             //Put tbody in table
             table.appendChild(tbody);
+        })
+        //Allows user to "collapse" climbing route lists
+        titleth.addEventListener('click', () => {
+          tbody.classList.toggle('d-none');
         })
     })
 }
