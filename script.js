@@ -5,6 +5,8 @@ const LongDong = {
     guidebook: "",
     guidebookURL: "",
     safety: "",
+    mapHTML: '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14451.275212940061!2d121.9205135!3d25.1079943!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x345d439fc992c2d7%3A0x539f17e22ef63038!2sDragon%20Caves!5e0!3m2!1sen!2stw!4v1617077890107!5m2!1sen!2stw" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
+    mobileMapHTML: '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14451.275212940061!2d121.9205135!3d25.1079943!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x345d439fc992c2d7%3A0x539f17e22ef63038!2sDragon%20Caves!5e0!3m2!1sen!2stw!4v1617078560727!5m2!1sen!2stw" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
     imgURL: "./imgs/longDong.jpg",
     rocks: [
         {
@@ -42,6 +44,8 @@ const ReHai = {
     guidebook: "There is currently no official guidebook for Re Hai. However, a very useful document called Rock Climbing Taiwan put together by Nate Ball provides useful topos of each of the routes listed below. The Re Hai chapter of Rock Climbing Taiwan can be accessed here.",
     guidebookURL: "https://docs.google.com/document/d/18SPGo4IxsBq9iFy81ke-uDGK8QnE1L6oZCaPvV-B0Ic/edit",
     safety: "Please note that some of the maillons at the belay stations (used for lowering off) are rusted and need replacing. Otherwise, the large majority the bolts in Re Hai appear to be in good condition. Whilst it is just about possible to use a 30 meter rope for most of the routes, it is strongly recommended to tie a knot in the belayer’s end of the rope if doing so. Of course, you will need to make your own judgement regarding the quality of the bolts and the suitable length of rope to use for each route.",
+    mapHTML: '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5822.527063963946!2d121.5118703!3d25.1344678!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442ae6822c013c3%3A0xd882b3905c2a9e81!2z5YyX5oqV54ax5rW35bKp5aC0!5e1!3m2!1sen!2stw!4v1617078782265!5m2!1sen!2stw" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
+    mobileMapHTML: '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5822.527063963946!2d121.5118703!3d25.1344678!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442ae6822c013c3%3A0xd882b3905c2a9e81!2z5YyX5oqV54ax5rW35bKp5aC0!5e1!3m2!1sen!2stw!4v1617078782265!5m2!1sen!2stw" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
     imgURL: "./imgs/ReHai.jpg",
     rocks: [
         {
@@ -201,6 +205,8 @@ const BigCannonCliff = {
     guidebook: "There is currently no official guidebook for Big Cannon Cliff. However, a very useful document prepared by Ron Heinsman provides useful topos of each of the routes listed below. A copy of this document can be accessed here.",
     guidebookURL: "http://www.taiwanrock.50webs.com/big_cannon_cliff_guide.pdf",
     safety: "",
+    mapHTML: '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7223.602044300907!2d121.5177629!3d25.1424171!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442ae6ca93b9f77%3A0x5ed3b965d43a72bc!2z5YyX5oqV5aSn56Cy5bKp5aC0!5e0!3m2!1sen!2stw!4v1617078842753!5m2!1sen!2stw" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
+    mobileMapHTML: '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7223.602044300907!2d121.5177629!3d25.1424171!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442ae6ca93b9f77%3A0x5ed3b965d43a72bc!2z5YyX5oqV5aSn56Cy5bKp5aC0!5e0!3m2!1sen!2stw!4v1617078842753!5m2!1sen!2stw" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
     imgURL: "./imgs/BigCannonCliff.jpg",
     rocks: [
         {
@@ -773,6 +779,8 @@ const GuanZiLing = {
     guidebook: "",
     guidebookURL: "",
     safety: "",
+    mapHTML: '',
+    mobileMapHTML: '',
     imgURL: "./imgs/GuanZiLing.jpg",
     rocks: []
 }
@@ -784,6 +792,8 @@ const ShouShan = {
     guidebook: "",
     guidebookURL: "",
     safety: "",
+    mapHTML: '',
+    mobileMapHTML: '',
     imgURL: "./imgs/ShouShan.jpg",
     rocks: []
 }
@@ -796,9 +806,26 @@ crags.push(BigCannonCliff);
 crags.push(GuanZiLing);
 crags.push(ShouShan);
 
+let currentCrag = '';
 const navLinks = document.querySelectorAll(".nav-link");
 const cragCard = document.querySelector('#cragCard')
 const cragName = document.querySelector("#cragName");
+const map = document.querySelector('#map');
+const mapBtn = document.querySelector('#mapBtn');
+
+mapBtn.addEventListener('click', () => {
+  if(map.innerHTML == "") {
+    if(screen.width < 500) {
+      map.innerHTML = currentCrag.mobileMapHTML;
+    } else {
+      map.innerHTML = currentCrag.mapHTML;
+      console.log('map');
+    }
+  } else {
+    map.innerHTML = "";
+    console.log('clear');
+  }
+});
 
 //For each link in the navbar
 navLinks.forEach((link) => {
@@ -829,6 +856,7 @@ navLinks.forEach((link) => {
 
 const createCragCard = function(crag) {
     //Crag info
+    currentCrag = crag;
     const cragOverview = document.querySelector("#cragOverview");
     const cragTravel = document.querySelector("#cragTravel");
     const cragGuidebook = document.querySelector("#cragGuidebook");
@@ -909,6 +937,7 @@ const clearCragContent = () => {
     cragTravel.innerHTML = "";
     cragGuidebook.innerHTML = "";
     cragSafety.innerHTML = "";
+    map.innerHTML = "";
     const table = document.querySelector('table');
     const thead = document.querySelector('thead');
     const tbodies = document.querySelectorAll('tbody');
