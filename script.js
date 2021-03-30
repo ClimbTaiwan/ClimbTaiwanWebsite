@@ -889,6 +889,7 @@ const createCragCard = function(crag) {
         //Set it to extend across 4 rows of the table
         titleth.setAttribute("colspan", "4");
         titletr.appendChild(titleth);
+        titletr.classList.add('rockTitleRow');
         thead.appendChild(titletr);
         thead.classList.add('rockName');
         table.appendChild(thead);

@@ -85,3 +85,8 @@ body {
 .card-body {
     float: left !important;
 }
+
+.rockTitleRow {
+    background: rgb(85, 84, 84);
+    font-size: 18px;
+}
