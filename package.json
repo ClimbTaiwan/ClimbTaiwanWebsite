@@ -1,0 +1,24 @@
+{
+  "name": "ClimbTaiwan",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bromericano/ClimbTaiwan.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bromericano/ClimbTaiwan/issues"
+  },
+  "homepage": "https://github.com/bromericano/ClimbTaiwan#readme",
+  "devDependencies": {
+    "webpack": "^5.28.0",
+    "webpack-cli": "^4.6.0"
+  }
+}
