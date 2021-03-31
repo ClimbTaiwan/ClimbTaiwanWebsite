@@ -7,7 +7,7 @@ const LongDong = {
     safety: "",
     mapHTML: '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14451.275212940061!2d121.9205135!3d25.1079943!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x345d439fc992c2d7%3A0x539f17e22ef63038!2sDragon%20Caves!5e0!3m2!1sen!2stw!4v1617077890107!5m2!1sen!2stw" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
     mobileMapHTML: '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14451.275212940061!2d121.9205135!3d25.1079943!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x345d439fc992c2d7%3A0x539f17e22ef63038!2sDragon%20Caves!5e0!3m2!1sen!2stw!4v1617078560727!5m2!1sen!2stw" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
-    imgURL: "../dist/imgs/longDong.jpg",
+    imgURL: "../dist/Images/longDong.jpg",
     rocks: [
         {
             name: "Back Door - B1",
@@ -46,7 +46,7 @@ const ReHai = {
     safety: "Please note that some of the maillons at the belay stations (used for lowering off) are rusted and need replacing. Otherwise, the large majority the bolts in Re Hai appear to be in good condition. Whilst it is just about possible to use a 30 meter rope for most of the routes, it is strongly recommended to tie a knot in the belayer’s end of the rope if doing so. Of course, you will need to make your own judgement regarding the quality of the bolts and the suitable length of rope to use for each route.",
     mapHTML: '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5822.527063963946!2d121.5118703!3d25.1344678!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442ae6822c013c3%3A0xd882b3905c2a9e81!2z5YyX5oqV54ax5rW35bKp5aC0!5e1!3m2!1sen!2stw!4v1617078782265!5m2!1sen!2stw" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
     mobileMapHTML: '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5822.527063963946!2d121.5118703!3d25.1344678!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442ae6822c013c3%3A0xd882b3905c2a9e81!2z5YyX5oqV54ax5rW35bKp5aC0!5e1!3m2!1sen!2stw!4v1617078782265!5m2!1sen!2stw" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
-    imgURL: "../dist/imgs/ReHai.jpg",
+    imgURL: "../dist/Images/ReHai.jpg",
     rocks: [
         {
             name: "First Wall",
@@ -207,7 +207,7 @@ const BigCannonCliff = {
     safety: "",
     mapHTML: '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7223.602044300907!2d121.5177629!3d25.1424171!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442ae6ca93b9f77%3A0x5ed3b965d43a72bc!2z5YyX5oqV5aSn56Cy5bKp5aC0!5e0!3m2!1sen!2stw!4v1617078842753!5m2!1sen!2stw" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
     mobileMapHTML: '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7223.602044300907!2d121.5177629!3d25.1424171!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442ae6ca93b9f77%3A0x5ed3b965d43a72bc!2z5YyX5oqV5aSn56Cy5bKp5aC0!5e0!3m2!1sen!2stw!4v1617078842753!5m2!1sen!2stw" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
-    imgURL: "../dist/imgs/BigCannonCliff.jpg",
+    imgURL: "../dist/Images/BigCannonCliff.jpg",
     rocks: [
         {
             name: "All Routes",
@@ -781,7 +781,7 @@ const GuanZiLing = {
     safety: "",
     mapHTML: '',
     mobileMapHTML: '',
-    imgURL: "../dist/imgs/GuanZiLing.jpg",
+    imgURL: "../dist/Images/GuanZiLing.jpg",
     rocks: []
 }
 
@@ -794,7 +794,7 @@ const ShouShan = {
     safety: "",
     mapHTML: '',
     mobileMapHTML: '',
-    imgURL: "../dist/imgs/ShouShan.jpg",
+    imgURL: "../dist/Images/ShouShan.jpg",
     rocks: []
 }
 
