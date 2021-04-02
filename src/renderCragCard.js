@@ -67,6 +67,8 @@ const createCragCard = function(crag) {
             const thText = document.createTextNode(route.name);
             th.appendChild(thText);
             th.setAttribute("scope", "row");
+            th.classList.add('route');
+            tr.classList.add('route');
             const tdRating = document.createElement('td');
             const tdStyle = document.createElement('td');
             const tdRatingText = document.createTextNode(route.rating);

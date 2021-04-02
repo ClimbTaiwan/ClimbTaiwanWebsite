@@ -87,6 +87,10 @@ body {
 }
 
 .rockTitleRow {
-    background: rgb(85, 84, 84);
+    background: rgb(172, 171, 171);
     font-size: 18px;
+}
+
+.route {
+    font-weight: lighter;
 }
