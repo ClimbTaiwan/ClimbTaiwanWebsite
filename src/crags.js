@@ -1,10 +1,16 @@
+const Information = {
+  name: "Information",
+  content: "Welcome to Climb Taiwan! Our goal is to be your one-stop shop for everything outdoor climbing related in Taiwan. Whilst there is wealth of useful information and some excellent resources already out there, everything is in different places and can often be hard to find. Additionally, some of the most useful Taiwan climbing websites are no longer being updated. Therefore, we are working hard to bring you all of the latest information in one place. Over the coming months we are hoping to add more features to the website, including the ability to create an account and log the routes you have climbed, as well as a partner finder. If you have any suggestions for other features you would like to see, or would just like to say hello, please feel free to contact us [info@climbtaiwan.com / using the form below]",
+  warning: "WARNING: Rock climbing is a dangerous activity. Proper safety equipment and knowledge of how to use it correctly are essential, You are ultimately responsible for your own safety. Climb Taiwan accepts no liability or responsibility for injury resulting from the use of this site.",
+  imgURL: "./Images/introduction.jpg",
+}
+
 const LongDong = {
     name: "Long Dong",
     overview: "Long Dong is without a doubt the premier climbing area of Taiwan. It offers world class climbing on bullet hard sandstone, against an atmospheric coastal backdrop. There are a huge number of bolted sport routes and trad routes across a wide range of grades, as well as a handful of deep water solo and bouldering routes. Long Dong is divided up into six main crags.",
     travel: "Long Dong is about one hour away from Taipei by car.",
     guidebook: "",
     guidebookURL: "",
-    safety: "",
     mapHTML: '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14451.275212940061!2d121.9205135!3d25.1079943!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x345d439fc992c2d7%3A0x539f17e22ef63038!2sDragon%20Caves!5e0!3m2!1sen!2stw!4v1617077890107!5m2!1sen!2stw" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
     mobileMapHTML: '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14451.275212940061!2d121.9205135!3d25.1079943!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x345d439fc992c2d7%3A0x539f17e22ef63038!2sDragon%20Caves!5e0!3m2!1sen!2stw!4v1617078560727!5m2!1sen!2stw" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
     imgURL: "./Images/longDong.jpg",
@@ -43,7 +49,6 @@ const ReHai = {
     travel: "Re Hai is approximately a 30 minute walk from the Xinbeitou MRT station. From the MRT station, you need to walk along Guangming Road past Beitou Park (and Burger King) until you get to the Spa Sring Resort. From here, follow the road up to the right and continue walking along Wenquan Road until you reach a steep upward winding road. Follow the road round to the second bend until you arrive at a trail entrance marked by a post inscribed with red painted Chinese characters (GPS coordinates 25.135342, 121.516474). Head up the trail until you reach a large boulder and then take the path the to the right. Continue upwards and shortly after the path levels out you will arrive at the First Wall.",
     guidebook: "There is currently no official guidebook for Re Hai. However, a very useful document called Rock Climbing Taiwan put together by Nate Ball provides useful topos of each of the routes listed below. The Re Hai chapter of Rock Climbing Taiwan can be accessed here.",
     guidebookURL: "https://docs.google.com/document/d/18SPGo4IxsBq9iFy81ke-uDGK8QnE1L6oZCaPvV-B0Ic/edit",
-    safety: "Please note that some of the maillons at the belay stations (used for lowering off) are rusted and need replacing. Otherwise, the large majority the bolts in Re Hai appear to be in good condition. Whilst it is just about possible to use a 30 meter rope for most of the routes, it is strongly recommended to tie a knot in the belayer’s end of the rope if doing so. Of course, you will need to make your own judgement regarding the quality of the bolts and the suitable length of rope to use for each route.",
     mapHTML: '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5822.527063963946!2d121.5118703!3d25.1344678!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442ae6822c013c3%3A0xd882b3905c2a9e81!2z5YyX5oqV54ax5rW35bKp5aC0!5e1!3m2!1sen!2stw!4v1617078782265!5m2!1sen!2stw" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
     mobileMapHTML: '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5822.527063963946!2d121.5118703!3d25.1344678!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442ae6822c013c3%3A0xd882b3905c2a9e81!2z5YyX5oqV54ax5rW35bKp5aC0!5e1!3m2!1sen!2stw!4v1617078782265!5m2!1sen!2stw" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
     imgURL: "./Images/ReHai.jpg",
@@ -204,7 +209,6 @@ const BigCannonCliff = {
     travel: "The easiest way to get to Big Cannon Cliff is take the MRT to Xinbeitou Station, take Exit 1, and then cross the road to the Beitou Park bus stop opposite KFC. From there take the 230 bus to Dahuangzui (大磺嘴), which is the stop after Beitou Museum. Buses depart around every 30 minutes. It is also possible to walk to Big Cannon Cliff from Xinbeitou Station in around 45 minutes (it is useful to note that the walk back to Xinbeitou Station is downhill).  ",
     guidebook: "There is currently no official guidebook for Big Cannon Cliff. However, a very useful document prepared by Ron Heinsman provides useful topos of each of the routes listed below. A copy of this document can be accessed here.",
     guidebookURL: "http://www.taiwanrock.50webs.com/big_cannon_cliff_guide.pdf",
-    safety: "",
     mapHTML: '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7223.602044300907!2d121.5177629!3d25.1424171!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442ae6ca93b9f77%3A0x5ed3b965d43a72bc!2z5YyX5oqV5aSn56Cy5bKp5aC0!5e0!3m2!1sen!2stw!4v1617078842753!5m2!1sen!2stw" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
     mobileMapHTML: '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7223.602044300907!2d121.5177629!3d25.1424171!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442ae6ca93b9f77%3A0x5ed3b965d43a72bc!2z5YyX5oqV5aSn56Cy5bKp5aC0!5e0!3m2!1sen!2stw!4v1617078842753!5m2!1sen!2stw" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
     imgURL: "./Images/BigCannonCliff.jpg",
@@ -778,7 +782,6 @@ const GuanZiLing = {
     travel: "",
     guidebook: "",
     guidebookURL: "",
-    safety: "",
     mapHTML: '',
     mobileMapHTML: '',
     imgURL: "./Images/GuanZiLing.jpg",
@@ -791,7 +794,6 @@ const ShouShan = {
     travel: "",
     guidebook: "",
     guidebookURL: "",
-    safety: "",
     mapHTML: '',
     mobileMapHTML: '',
     imgURL: "./Images/ShouShan.jpg",
@@ -800,6 +802,7 @@ const ShouShan = {
 
 const crags = []
 
+crags.push(Information);
 crags.push(LongDong);
 crags.push(ReHai);
 crags.push(BigCannonCliff);
