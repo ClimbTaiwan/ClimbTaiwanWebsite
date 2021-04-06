@@ -62,13 +62,23 @@ const createCragCard = function(crag) {
       const guidebookHeaderText = document.createTextNode('Guidebook');
       guidebookHeader.appendChild(guidebookHeaderText);
 
-      const cragGuidebook = document.querySelector("#cragGuidebook");
-      const cragGuidebookURL = document.querySelector("#cragGuidebookURL");
-      const cragGuidebookText = document.createTextNode(crag.guidebook);
-      cragGuidebook.appendChild(cragGuidebookText);
-      const cragGuidebookURLText = document.createTextNode('Check out the guidebook here!');
-      cragGuidebookURL.appendChild(cragGuidebookURLText);
-      cragGuidebookURL.setAttribute("href", crag.guidebookURL);
+      crag.guidebook.forEach((guidebook) => {
+        const guidebookDiv = document.querySelector('#guidebookDiv')
+        const guidebookText = document.createTextNode(guidebook.text);
+        const guidebookURLText = document.createTextNode(guidebook.urlText);
+        const br = document.createElement('br');
+
+        const guidebookTextP = document.createElement('p');
+        const guidebookURLA = document.createElement('a');
+
+        guidebookTextP.appendChild(guidebookText);
+        guidebookTextP.appendChild(br);
+        guidebookURLA.appendChild(guidebookURLText);
+        guidebookURLA.setAttribute("href", guidebook.url);
+
+        guidebookTextP.appendChild(guidebookURLA);
+        guidebookDiv.appendChild(guidebookTextP);
+      })
     }
 
     if(crag.mapHTML && crag.mapHTML != "") {
@@ -153,7 +163,7 @@ const clearCragContent = () => {
     travelHeader.innerHTML = "";
     cragTravel.innerHTML = "";
     guidebookHeader.innerHTML = "";
-    cragGuidebook.innerHTML = "";
+    guidebookDiv.innerHTML = "";
     map.innerHTML = "";
     const table = document.querySelector('table');
     const thead = document.querySelector('thead');
