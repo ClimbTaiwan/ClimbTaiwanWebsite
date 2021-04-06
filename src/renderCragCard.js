@@ -22,19 +22,42 @@ const createCragCard = function(crag) {
     currentCrag = crag;
     //If information
     if(crag.name == "Information") {
-      const cragOverviewText = document.createTextNode(crag.content);
       const cragOverview = document.querySelector('#cragOverview');
-      cragOverview.appendChild(cragOverviewText);
 
-      const cragTravel = document.querySelector("#cragTravel");
-      const cragTravelText = document.createTextNode(crag.warning);
-      cragTravel.appendChild(cragTravelText);
+      const h1 = document.createElement('p');
+      const h1Text = document.createTextNode(crag.h1);
+      h1.appendChild(h1Text);
+
+      const p1 = document.createElement('p');
+      const p1Text = document.createTextNode(crag.p1);
+      p1.appendChild(p1Text);
+
+      const p2 = document.createElement('p');
+      const p2Text = document.createTextNode(crag.p2);
+      p2.appendChild(p2Text);
+
+      const p3 = document.createElement('p');
+      const p3Text = document.createTextNode(crag.p3);
+      p3.appendChild(p3Text);
+
+      const cragTravel = document.querySelector('#cragTravel');
+      const warningP = document.createElement('p');
+      const warningText = document.createTextNode(crag.warning);
+      warningP.appendChild(warningText);
+      
+      cragOverview.appendChild(h1);
+      cragOverview.appendChild(p1);
+      cragOverview.appendChild(p2);
+      cragOverview.appendChild(p3);
+      cragTravel.appendChild(warningP);
     }
-
+    const climbTable = document.querySelector('#climbTable');
     if(crag.name == "Information") {
       cragTravel.style.color = 'red';
+      climbTable.classList.add('d-none');
     } else {
       cragTravel.style.color = 'black';
+      climbTable.classList.remove('d-none');
     }
     //Set up headers
     if(crag.overview && crag.overview != "") {
