@@ -94,3 +94,11 @@ body {
 .route {
     font-weight: lighter;
 }
+
+.th {
+    width: 60%;
+}
+
+.td {
+    width: 20%;
+}

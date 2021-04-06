@@ -151,6 +151,9 @@ const createCragCard = function(crag) {
               const tdStyleText = document.createTextNode(route.style);
               tdRating.appendChild(tdRatingText);
               tdStyle.appendChild(tdStyleText);
+              th.classList.add('th');
+              tdRating.classList.add('td');
+              tdStyle.classList.add('td');
               //add route name to table
               tr.appendChild(th);
               //add route rating to table
