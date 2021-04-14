@@ -4,7 +4,7 @@ const Information = {
   p1: "Our goal is to be your one-stop shop for everything outdoor climbing related in Taiwan.",
   p2: "Whilst there is a wealth of useful information and some excellent resources already out there, everything is in different places and can often be hard to find. Additionally, some of the most useful Taiwan climbing websites are no longer being updated. Therefore, we are working hard to bring you all of the latest information in one place.",
   p3: "Over the coming months we are hoping to add more features to the website, including the ability to create an account and log the routes you have climbed, as well as a partner finder. If you have any suggestions for other features you would like to see, or would just like to say hello, please feel free to contact us ",
-  warning: "WARNING: Rock climbing is a dangerous activity. Proper safety equipment and knowledge of how to use it correctly are essential, You are ultimately responsible for your own safety. Climb Taiwan accepts no liability or responsibility for injury resulting from the use of this site.",
+  warning: "WARNING: Rock climbing is a dangerous activity. Proper safety equipment and knowledge of how to use it correctly are essential. You are ultimately responsible for your own safety. Climb Taiwan accepts no liability or responsibility for injury resulting from the use of this site.",
   imgURL: "./Images/introduction.jpg",
 }
 
@@ -32,6 +32,7 @@ const LongDong = {
     mapHTML: '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14451.275212940061!2d121.9205135!3d25.1079943!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x345d439fc992c2d7%3A0x539f17e22ef63038!2sDragon%20Caves!5e0!3m2!1sen!2stw!4v1617077890107!5m2!1sen!2stw" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
     mobileMapHTML: '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14451.275212940061!2d121.9205135!3d25.1079943!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x345d439fc992c2d7%3A0x539f17e22ef63038!2sDragon%20Caves!5e0!3m2!1sen!2stw!4v1617078560727!5m2!1sen!2stw" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
     imgURL: "./Images/longDong.jpg",
+    totalClimbs: 563,
     rocks: [
         {
             name: "Back Door - B1",
@@ -3140,6 +3141,7 @@ const ReHai = {
     mapHTML: '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5822.527063963946!2d121.5118703!3d25.1344678!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442ae6822c013c3%3A0xd882b3905c2a9e81!2z5YyX5oqV54ax5rW35bKp5aC0!5e1!3m2!1sen!2stw!4v1617078782265!5m2!1sen!2stw" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
     mobileMapHTML: '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5822.527063963946!2d121.5118703!3d25.1344678!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442ae6822c013c3%3A0xd882b3905c2a9e81!2z5YyX5oqV54ax5rW35bKp5aC0!5e1!3m2!1sen!2stw!4v1617078782265!5m2!1sen!2stw" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
     imgURL: "./Images/ReHai.jpg",
+    totalClimbs: 23,
     rocks: [
         {
             name: "First Wall",
@@ -3305,6 +3307,7 @@ const BigCannonCliff = {
     mapHTML: '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7223.602044300907!2d121.5177629!3d25.1424171!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442ae6ca93b9f77%3A0x5ed3b965d43a72bc!2z5YyX5oqV5aSn56Cy5bKp5aC0!5e0!3m2!1sen!2stw!4v1617078842753!5m2!1sen!2stw" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
     mobileMapHTML: '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d7223.602044300907!2d121.5177629!3d25.1424171!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442ae6ca93b9f77%3A0x5ed3b965d43a72bc!2z5YyX5oqV5aSn56Cy5bKp5aC0!5e0!3m2!1sen!2stw!4v1617078842753!5m2!1sen!2stw" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
     imgURL: "./Images/BigCannonCliff.jpg",
+    totalClimbs: 111,
     rocks: [
         {
             name: "All Routes",
@@ -3888,6 +3891,7 @@ const GuanZiLing = {
     mapHTML: '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14654.628673892372!2d120.48207943504426!3d23.328194399999997!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e8d7340adbe05%3A0xdd22a977aeb95bf2!2z6Zec5a2Q5ba65bKp5aC0!5e0!3m2!1sen!2stw!4v1617682622021!5m2!1sen!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
     mobileMapHTML: '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14654.628673892372!2d120.48207943504426!3d23.328194399999997!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e8d7340adbe05%3A0xdd22a977aeb95bf2!2z6Zec5a2Q5ba65bKp5aC0!5e0!3m2!1sen!2stw!4v1617682622021!5m2!1sen!2stw" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
     imgURL: "./Images/GuanZiLing.jpg",
+    totalClimbs: 50,
     rocks: [
         {
           name: "Ultimate Wall",
@@ -4186,6 +4190,7 @@ const ShouShan = {
     mapHTML: '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3682.7787018482713!2d120.27190650288293!3d22.624737599999985!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e040b3ad00197%3A0x7dc5882b10ceb66b!2z5aO95bGx5bKp5aC0!5e0!3m2!1sen!2stw!4v1617682534693!5m2!1sen!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
     mobileMapHTML: '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3682.7787018482713!2d120.27190650288293!3d22.624737599999985!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e040b3ad00197%3A0x7dc5882b10ceb66b!2z5aO95bGx5bKp5aC0!5e0!3m2!1sen!2stw!4v1617682534693!5m2!1sen!2stw" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
     imgURL: "./Images/ShouShan.jpg",
+    totalClimbs: 36,
     rocks: [
         {
           name: "White Wall",

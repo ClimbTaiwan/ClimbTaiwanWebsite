@@ -3,6 +3,7 @@ const cragCard = document.querySelector('#cragCard')
 const cragName = document.querySelector("#cragName");
 const map = document.querySelector('#map');
 const mapBtn = document.querySelector('#mapBtn');
+const totalClimbs = document.querySelector('#totalClimbs');
 
 mapBtn.addEventListener('click', () => {
   if(map.innerHTML == "") {
@@ -24,10 +25,6 @@ const createCragCard = function(crag) {
     if(crag.name == "Information") {
       const cragOverview = document.querySelector('#cragOverview');
 
-      const h1 = document.createElement('p');
-      const h1Text = document.createTextNode(crag.h1);
-      h1.appendChild(h1Text);
-
       const p1 = document.createElement('p');
       const p1Text = document.createTextNode(crag.p1);
       p1.appendChild(p1Text);
@@ -45,7 +42,6 @@ const createCragCard = function(crag) {
       const warningText = document.createTextNode(crag.warning);
       warningP.appendChild(warningText);
       
-      cragOverview.appendChild(h1);
       cragOverview.appendChild(p1);
       cragOverview.appendChild(p2);
       cragOverview.appendChild(p3);
@@ -113,8 +109,18 @@ const createCragCard = function(crag) {
     const cragImg = document.querySelector("#cragImg");
     cragImg.setAttribute("src", crag.imgURL);
 
-    const cragNameText = document.createTextNode(crag.name);
-    cragName.appendChild(cragNameText);
+    if(crag.name != "Information") {
+      const cragNameText = document.createTextNode(crag.name);
+      cragName.appendChild(cragNameText);
+    } else {
+      const cragNameText = document.createTextNode(crag.h1);
+      cragName.appendChild(cragNameText);
+    }
+
+    if(crag.totalClimbs) {
+      const totalClimbsText = document.createTextNode(crag.totalClimbs);
+      totalClimbs.appendChild(totalClimbsText);
+    }
 
     //Table
     const table = document.querySelector("#climbTable");
@@ -191,6 +197,7 @@ const clearCragContent = () => {
     guidebookHeader.innerHTML = "";
     guidebookDiv.innerHTML = "";
     map.innerHTML = "";
+    totalClimbs.innerHTML = "";
     const table = document.querySelector('table');
     const thead = document.querySelector('thead');
     const tbodies = document.querySelectorAll('tbody');
