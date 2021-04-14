@@ -4185,6 +4185,11 @@ const ShouShan = {
         text: "A guidebook called Rock Climbing Taiwan put together by Nate Ball provides useful topos of each of the routes listed below. A copy of Rock Climbing Taiwan can be accessed below. Scroll down to page 23 for the start of the Shou Shan chapter.",
         url: "https://docs.google.com/document/d/18SPGo4IxsBq9iFy81ke-uDGK8QnE1L6oZCaPvV-B0Ic/edit",
         urlText: "Rock Climbing Taiwan – Nate Ball"
+      },
+      {
+        text: "Check out the Kaohsiung Climbing group on Facebook to find other climbers in the area!",
+        url: "https://www.facebook.com/groups/554712417951797/",
+        urlText: "Kaohsiung Climbing",
       }
     ],
     mapHTML: '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3682.7787018482713!2d120.27190650288293!3d22.624737599999985!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x346e040b3ad00197%3A0x7dc5882b10ceb66b!2z5aO95bGx5bKp5aC0!5e0!3m2!1sen!2stw!4v1617682534693!5m2!1sen!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
