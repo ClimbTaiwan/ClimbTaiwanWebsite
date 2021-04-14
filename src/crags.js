@@ -3341,7 +3341,7 @@ const BigCannonCliff = {
                 },
                 {
                   "name": "Arete",
-                  "rating": "5.1",
+                  "rating": "5.10",
                   "style": "Top Rope"
                 },
                 {
@@ -3351,7 +3351,7 @@ const BigCannonCliff = {
                 },
                 {
                   "name": "South Mountain (don’t step on arete)",
-                  "rating": "5.1",
+                  "rating": "5.10",
                   "style": "Top Rope"
                 },
                 {
@@ -3376,7 +3376,7 @@ const BigCannonCliff = {
                 },
                 {
                   "name": "Face",
-                  "rating": "5.1",
+                  "rating": "5.10",
                   "style": "Top Rope"
                 },
                 {
@@ -3396,7 +3396,7 @@ const BigCannonCliff = {
                 },
                 {
                   "name": "Face",
-                  "rating": "5.1",
+                  "rating": "5.10",
                   "style": "Top Rope"
                 },
                 {
@@ -3546,7 +3546,7 @@ const BigCannonCliff = {
                 },
                 {
                   "name": "Face (don’t use horizontal cracks)",
-                  "rating": "5.1",
+                  "rating": "5.10",
                   "style": "Top Rope"
                 },
                 {
@@ -3676,7 +3676,7 @@ const BigCannonCliff = {
                 },
                 {
                   "name": "Ten Side Ambush (don’t use horizontal crack or hole)",
-                  "rating": "5.1",
+                  "rating": "5.10",
                   "style": "Top Rope"
                 },
                 {
@@ -3851,7 +3851,7 @@ const BigCannonCliff = {
                 },
                 {
                   "name": "Traverse between 30 and 32",
-                  "rating": "5.1",
+                  "rating": "5.10",
                   "style": "Top Rope"
                 },
                 {
