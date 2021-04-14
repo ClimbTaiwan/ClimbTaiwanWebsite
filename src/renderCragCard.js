@@ -41,6 +41,7 @@ const createCragCard = function(crag) {
       const warningP = document.createElement('p');
       const warningText = document.createTextNode(crag.warning);
       warningP.appendChild(warningText);
+      warningP.style.fontWeight = "bold";
       
       cragOverview.appendChild(p1);
       cragOverview.appendChild(p2);
