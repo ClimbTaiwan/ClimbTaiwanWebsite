@@ -131,8 +131,17 @@ const createCragCard = function(crag) {
           const thead = document.createElement("thead");
           const titletr = document.createElement('tr');
           const titleth = document.createElement('th');
-          const titlethText = document.createTextNode(rock.name);
+          const titlethText = document.createTextNode(' '+rock.name);
+          //Create down arrow icon
+          const arrowIcon = document.createElement('i');
+          arrowIcon.classList.add('fas');
+          arrowIcon.classList.add('fa-chevron-down');
+          const arrowIconSpan = document.createElement('span');
+          arrowIconSpan.appendChild(arrowIcon);
+          arrowIconSpan.classList.add('float-right');
+          // Add rock name text & arrow Icon
           titleth.appendChild(titlethText);
+          titleth.appendChild(arrowIconSpan);
           //Set it to extend across 4 rows of the table
           titleth.setAttribute("colspan", "4");
           titletr.appendChild(titleth);
@@ -171,10 +180,15 @@ const createCragCard = function(crag) {
               tbody.appendChild(tr);
               //Put tbody in table
               table.appendChild(tbody);
+              //tbody appears as only table header at first
+              tbody.classList.add('d-none');
           })
           //Allows user to "collapse" climbing route lists
           titleth.addEventListener('click', () => {
             tbody.classList.toggle('d-none');
+            // Switch arrow icon up/down
+            arrowIcon.classList.toggle('fa-chevron-down');
+            arrowIcon.classList.toggle('fa-chevron-up');
           })
       })
     }

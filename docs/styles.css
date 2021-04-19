@@ -101,6 +101,7 @@ h6 {
 
 .rockTitleRow:hover {
   cursor: pointer;
+  text-decoration: underline;
 }
 
 .route {
@@ -113,4 +114,10 @@ h6 {
 
 .td {
   width: 20%;
+}
+
+.fas {
+  margin: auto;
+  height: 100%;
+  line-height: 100%;
 }
