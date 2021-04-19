@@ -1,5 +1,6 @@
 export const LongDong = {
     name: "Long Dong",
+    chineseName: "龍洞",
     overview: "Long Dong is considered by many to be the premier climbing destination in Taiwan. Here you will find world class climbing on gorgeous sandstone sea cliffs against an atmospheric ocean backdrop. There are a huge number of established routes at Long Dong, with a good mixture of sport and traditional climbing across a wide range of grades, as well as a handful of bouldering and deep water solo (DWS) routes.",
     travel: "By Bus from Taipei: There is a direct bus (1811) departing daily at 8:50 am (every day) and 10:20 am (Saturday and Sunday only) from directly outside Taipei Main Station Exit M1. For School Gate entrance get off at Long Dong Harbour (龍洞港) bus stop. For Backdoor get off at Buddha Temple (佛祖廟). To get back to Taipei, simply take bus 791 back to Keelung and then take bus 1813 from Kuo-Kuang Bus Station (Stand No. 1) back to Taipei Main Station (or alternatively you can take a train from Keelung Station).",
     guidebook: [

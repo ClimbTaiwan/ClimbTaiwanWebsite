@@ -1,5 +1,6 @@
 export const ReHai = {
     name: "Re Hai",
+    chineseName: "熱海",
     overview: "Re Hai is a small outcrop of volcanic rock overlooking the Xinbeitou district of Taipei. It has a distinct jungly feel with scenic views of Xinbeitou and Yangmingshan National Park from the top. There are a total of 23 documented routes, up to around 15 meters in length. All areas are in the shade until around noon. Whilst the trees do provide some cover from the sun in the afternoon, unfortunately they are also prime territory for mosquitos!",
     travel: "Re Hai is approximately a 30 minute walk from the Xinbeitou MRT station. From the MRT station, you need to walk along Guangming Road past Beitou Park (and Burger King) until you get to the Spa Sring Resort. From here, follow the road up to the right and continue walking along Wenquan Road until you reach a steep upward winding road. Follow the road round to the second bend until you arrive at a trail entrance marked by a post inscribed with red painted Chinese characters (GPS coordinates 25.135342, 121.516474). Head up the trail until you reach a large boulder and then take the path the to the right. Continue upwards and shortly after the path levels out you will arrive at the First Wall.",
     guidebook: [
@@ -9,8 +10,8 @@ export const ReHai = {
         urlText: "Rock Climbing Taiwan – Nate Ball"
       }
     ],
-    mapHTML: '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5822.527063963946!2d121.5118703!3d25.1344678!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442ae6822c013c3%3A0xd882b3905c2a9e81!2z5YyX5oqV54ax5rW35bKp5aC0!5e1!3m2!1sen!2stw!4v1617078782265!5m2!1sen!2stw" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
-    mobileMapHTML: '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5822.527063963946!2d121.5118703!3d25.1344678!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442ae6822c013c3%3A0xd882b3905c2a9e81!2z5YyX5oqV54ax5rW35bKp5aC0!5e1!3m2!1sen!2stw!4v1617078782265!5m2!1sen!2stw" width="200" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
+    mapHTML: '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3612.0069347716762!2d121.5136865!3d25.1354564!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442ae6822c013c3%3A0xd882b3905c2a9e81!2z5YyX5oqV54ax5rW35bKp5aC0!5e0!3m2!1sen!2stw!4v1618808236031!5m2!1sen!2stw" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
+    mobileMapHTML: '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3612.0069347716762!2d121.5136865!3d25.1354564!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3442ae6822c013c3%3A0xd882b3905c2a9e81!2z5YyX5oqV54ax5rW35bKp5aC0!5e0!3m2!1sen!2stw!4v1618808236031!5m2!1sen!2stw" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>',
     imgURL: "./Images/ReHai.jpg",
     totalClimbs: 23,
     rocks: [

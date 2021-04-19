@@ -1,5 +1,6 @@
 export const BigCannonCliff = {
     name: "Big Cannon Cliff",
+    chineseName: "大炮岩",
     overview: "Big Cannon Cliff was the first climbing area developed in Taiwan and has a row of distinctive blocky towers around 10 meters in height. The routes themselves are not bolted for sport climbing and there is little possibility for placing trad gear. However, there are bolts at the top of each of the towers, allowing most of the routes to be set up for top roping from above. Whilst the routes could be attempted as high-ball boulder boulder problems, the ground at the base of the towers is very rocky and uneven and so particular care must be taken. The style of climbing at Big Cannon Cliff is mostly crimpy technical problems, with some crack climbing.",
     travel: "The easiest way to get to Big Cannon Cliff is take the MRT to Xinbeitou Station, take Exit 1, and then cross the road to the Beitou Park bus stop opposite KFC. From there take the 230 bus to Dahuangzui (大磺嘴), which is the stop after Beitou Museum. Buses depart around every 30 minutes. It is also possible to walk to Big Cannon Cliff from Xinbeitou Station in around 45 minutes (it is useful to note that the walk back to Xinbeitou Station is downhill).  ",
     guidebook: [

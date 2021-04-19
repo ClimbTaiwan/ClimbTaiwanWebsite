@@ -5,6 +5,12 @@ body {
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  font-family: sans-serif;
+}
+
+h5,
+h6 {
+  font-weight: 700;
 }
 
 .navbar-brand img {
@@ -73,12 +79,13 @@ body {
 }
 
 .nav-item {
-  font-weight: 900 !important;
+  /* font-weight: 900 !important; */
 }
 
 #cragImg {
   float: right;
-  margin-right: 2vw;
+  padding-left: 2vw;
+  padding-bottom: 3vh;
   max-height: 50vh;
   max-width: 40vw;
 }
