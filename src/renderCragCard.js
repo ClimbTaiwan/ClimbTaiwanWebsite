@@ -36,24 +36,32 @@ const createCragCard = function(crag) {
       const p3 = document.createElement('p');
       const p3Text = document.createTextNode(crag.p3);
       p3.appendChild(p3Text);
+      const br = document.createElement('br');
+      p3.appendChild(br);
+
+      const emailAddress = document.createElement('a');
+      emailAddress.setAttribute('href', 'mailto:info@climbtaiwan.com');
+      const emailAddressText = document.createTextNode('info@climbtaiwan.com');
+      emailAddress.appendChild(emailAddressText);
+      emailAddress.style.fontWeight = 'bold';
+      p3.appendChild(emailAddress);
 
       const cragTravel = document.querySelector('#cragTravel');
       const warningP = document.createElement('p');
       const warningText = document.createTextNode(crag.warning);
       warningP.appendChild(warningText);
       warningP.style.fontWeight = "bold";
+      warningP.style.color = 'red';
       
       cragOverview.appendChild(p1);
       cragOverview.appendChild(p2);
       cragOverview.appendChild(p3);
-      cragTravel.appendChild(warningP);
+      cragOverview.appendChild(warningP);
     }
     const climbTable = document.querySelector('#climbTable');
     if(crag.name == "Information") {
-      cragTravel.style.color = 'red';
       climbTable.classList.add('d-none');
     } else {
-      cragTravel.style.color = 'black';
       climbTable.classList.remove('d-none');
     }
     //Set up headers
