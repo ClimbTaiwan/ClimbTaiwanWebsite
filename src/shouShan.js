@@ -30,7 +30,7 @@ export const ShouShan = {
             },
             {
               "name": "White Terror",
-              "rating": 5.1,
+              "rating": "5.10",
               "style": "Sport"
             },
             {
@@ -50,7 +50,7 @@ export const ShouShan = {
             },
             {
               "name": "Out of the Refrigerator",
-              "rating": 5.1,
+              "rating": "5.10",
               "style": "Sport"
             },
           ]
@@ -60,12 +60,12 @@ export const ShouShan = {
           routes: [
             {
               "name": "Luckiest Climber",
-              "rating": 5.1,
+              "rating": "5.10",
               "style": "Sport"
             },
             {
               "name": "Behind the Curtain",
-              "rating": 5.1,
+              "rating": "5.10",
               "style": "Sport"
             },
             {
@@ -75,7 +75,7 @@ export const ShouShan = {
             },
             {
               "name": "No Name",
-              "rating": 5.1,
+              "rating": "5.10",
               "style": "Sport"
             },
           ]
@@ -85,17 +85,17 @@ export const ShouShan = {
           routes: [
             {
               "name": "Squatting Mokey, Hidden Nuggets",
-              "rating": 5.1,
+              "rating": "5.10",
               "style": "Sport"
             },
             {
               "name": "Unhappy Endings",
-              "rating": 5.1,
+              "rating": "5.10",
               "style": "Sport"
             },
             {
               "name": "Skyline Fun",
-              "rating": 5.1,
+              "rating": "5.10",
               "style": "Sport"
             },
             {
@@ -130,7 +130,7 @@ export const ShouShan = {
             },
             {
               "name": "Steebun 1",
-              "rating": 5.1,
+              "rating": "5.10",
               "style": "Sport"
             },
             {
@@ -165,7 +165,7 @@ export const ShouShan = {
           routes: [
             {
               "name": "Deception",
-              "rating": 5.1,
+              "rating": "5.10",
               "style": "Sport"
             },
             {
@@ -175,7 +175,7 @@ export const ShouShan = {
             },
             {
               "name": "Gaoxiong 101",
-              "rating": 5.1,
+              "rating": "5.10",
               "style": "Sport"
             },
             {
@@ -210,12 +210,12 @@ export const ShouShan = {
           routes: [
             {
               "name": "La Dirty Dirty",
-              "rating": 5.1,
+              "rating": "5.10",
               "style": "Sport"
             },
             {
               "name": "You Dirty Bird",
-              "rating": 5.1,
+              "rating": "5.10",
               "style": "Sport"
             },
             {
