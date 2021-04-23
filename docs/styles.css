@@ -78,8 +78,8 @@ h6 {
   margin-bottom: 0;
 }
 
-.nav-item {
-  /* font-weight: 900 !important; */
+.nav-link {
+  font-weight: 700 !important;
 }
 
 #cragImg {
