@@ -43,7 +43,6 @@ const createCragCard = function(crag) {
       emailAddress.setAttribute('href', 'mailto:info@climbtaiwan.com');
       const emailAddressText = document.createTextNode('info@climbtaiwan.com');
       emailAddress.appendChild(emailAddressText);
-      emailAddress.style.fontWeight = 'bold';
       p3.appendChild(emailAddress);
 
       const cragTravel = document.querySelector('#cragTravel');

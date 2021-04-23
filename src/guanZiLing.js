@@ -1,6 +1,6 @@
 export const GuanZiLing = {
     name: "Guan Zi Ling",
-    chineseName: "大炮岩",
+    chineseName: "關子嶺",
     overview: "Guan Zi Ling is a famous hot spring sightseeing area located between Jiayi (嘉義) and Tainan (台南).The climbing area is just up the road from the hot spring area and has a number of limestone walls. The ethos here is sport, with grades ranging from 5.8 up to 5.14a. Guan Zi Ling’s prime seasons are autumn and winter. Early spring depends largely on the amount of rain. Late spring and summer are generally hot, muggy and full of mosquitos.",
     travel: "Guan Zi Ling is accessible from Highway 3. Take the Baihe Exit from Highway 3, and then head East on Route 172 for around 10 mins until you reach Xian Cao Pu (仙草舖). Take a right onto Route 96 heading South, and after about 4.8 km you will pass the Bi Yun Temple (碧雲寺) on your left. Keep going uphill, and after about 1.8 km you will pass an iron gate next to a two-storey house. Keep going for another 500 meters until you arrive at a wooden railing on your right. Go through the wood railing and after 200 meters the entrance to the Ultimate Wall will be on your left hand side.",
     guidebook: [
