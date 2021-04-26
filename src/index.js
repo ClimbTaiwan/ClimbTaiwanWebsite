@@ -10,7 +10,7 @@ navLinks.forEach((link) => {
         const linkText = e.target.innerHTML;
         //if the information card's name is the same as the link text,
         //take it off the page and clear its content
-        if(cragName.innerHTML == linkText) {
+        if(cragName.textContent.includes(linkText)) {
             cragCard.classList.add('d-none');
             clearCragContent();
         // if that is not the case
