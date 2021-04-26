@@ -13,7 +13,11 @@ navLinks.forEach((link) => {
         if(cragName.textContent.includes(linkText)) {
             cragCard.classList.add('d-none');
             clearCragContent();
-        // if that is not the case
+        // If the navlink clicked is Information while the Information page is open
+        } else if(cragName.textContent === "Welcome to Climb Taiwan!" && linkText === "Information") {
+            cragCard.classList.add('d-none');
+            clearCragContent();
+            // if that is not the case
         } else {
             //check each crag in the crags array
             crags.forEach((crag) => {
