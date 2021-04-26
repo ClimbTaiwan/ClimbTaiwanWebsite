@@ -118,7 +118,7 @@ const createCragCard = function(crag) {
     cragImg.setAttribute("src", crag.imgURL);
 
     if(crag.name != "Information") {
-      const cragNameText = document.createTextNode(crag.name   + ' (' + crag.chineseName + ')');
+      const cragNameText = document.createTextNode(crag.name   +' │ ' + crag.chineseName);
       cragName.appendChild(cragNameText);
     } else {
       const cragNameText = document.createTextNode(crag.h1);
