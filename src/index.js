@@ -25,7 +25,7 @@ navLinks.forEach((link) => {
                 if(crag.name == linkText) {
                     //fill out the card with the crag's info
                     checkCragCardContent(crag);
-                    //remove the class that makes the card not displayed
+                    //remove the class that makes the card not displayed .
                     cragCard.classList.remove('d-none');
                 }
             })
