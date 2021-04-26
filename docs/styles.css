@@ -14,14 +14,8 @@ h6 {
 }
 
 .navbar-brand img {
-  max-height: 15vh;
-  max-width: 20vw;
-}
-@media (max-width: 576px) {
-  .navbar-brand img {
-    max-width: 200px;
-    max-height: 50px;
-  }
+  max-height: 50px;
+  max-width: 200px;
 }
 
 .jumbotron {
