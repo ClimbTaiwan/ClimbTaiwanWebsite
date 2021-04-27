@@ -76,7 +76,7 @@ const createCragCard = function(crag) {
 
     if(crag.travel && crag.travel != "") {
       const travelHeader = document.querySelector('#travelHeader');
-      const travelHeaderText = document.createTextNode('How to get there:');
+      const travelHeaderText = document.createTextNode('Getting there:');
       travelHeader.appendChild(travelHeaderText);
 
       const cragTravel = document.querySelector("#cragTravel");

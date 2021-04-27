@@ -16,7 +16,7 @@ export const BigCannonCliff = {
     totalClimbs: 111,
     rocks: [
         {
-            name: "All Routes",
+            name: "Routes",
             routes: [
                 {
                   "name": "Crack",
@@ -538,42 +538,47 @@ export const BigCannonCliff = {
                   "rating": "5.2",
                   "style": "Top Rope"
                 },
-                {
-                  "name": "Traverse between 11 and 13",
-                  "rating": "5.6",
-                  "style": "Top Rope"
-                },
-                {
-                  "name": "Traverse between 15 and 17",
-                  "rating": "5.7",
-                  "style": "Top Rope"
-                },
-                {
-                  "name": "Traverse between 18 and 25",
-                  "rating": "5.8",
-                  "style": "Top Rope"
-                },
-                {
-                  "name": "Traverse between 30 and 26",
-                  "rating": "5.11",
-                  "style": "Top Rope"
-                },
-                {
-                  "name": "Traverse between 30 and 32",
-                  "rating": "5.10",
-                  "style": "Top Rope"
-                },
-                {
-                  "name": "Traverse between 39 and 49",
-                  "rating": "5.7",
-                  "style": "Top Rope"
-                },
-                {
-                  "name": "Traverse between 86 and 88",
-                  "rating": "5.8",
-                  "style": "Top Rope"
-                }
-               ]
-        }
+            ],
+          },
+          {
+            name: 'Traverses',
+            routes: [
+              {
+                "name": "Traverse between 11 and 13",
+                "rating": "5.6",
+                "style": "Top Rope"
+              },
+              {
+                "name": "Traverse between 15 and 17",
+                "rating": "5.7",
+                "style": "Top Rope"
+              },
+              {
+                "name": "Traverse between 18 and 25",
+                "rating": "5.8",
+                "style": "Top Rope"
+              },
+              {
+                "name": "Traverse between 30 and 26",
+                "rating": "5.11",
+                "style": "Top Rope"
+              },
+              {
+                "name": "Traverse between 30 and 32",
+                "rating": "5.10",
+                "style": "Top Rope"
+              },
+              {
+                "name": "Traverse between 39 and 49",
+                "rating": "5.7",
+                "style": "Top Rope"
+              },
+              {
+                "name": "Traverse between 86 and 88",
+                "rating": "5.8",
+                "style": "Top Rope"
+              }
+             ]
+            }
     ]
 }
