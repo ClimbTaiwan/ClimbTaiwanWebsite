@@ -156,9 +156,29 @@ const createCragCard = function(crag) {
           thead.appendChild(titletr);
           thead.classList.add('rockName');
           table.appendChild(thead);
-  
+          
           //Routes
           const tbody = document.createElement('tbody');
+
+          //Add column headings
+          const colHeaderstr = document.createElement('tr');
+          const colHeaderName = document.createElement('th');
+          const colHeaderRating = document.createElement('th');
+          const colHeaderStyle = document.createElement('th');
+          const colHeaderNameText = document.createTextNode('Name')
+          const colHeaderRatingText = document.createTextNode('Rating');
+          const colHeaderStyleText = document.createTextNode('Style');
+
+          colHeaderName.appendChild(colHeaderNameText);
+          colHeaderRating.appendChild(colHeaderRatingText);
+          colHeaderStyle.appendChild(colHeaderStyleText);
+
+          colHeaderstr.appendChild(colHeaderName);
+          colHeaderstr.appendChild(colHeaderRating);
+          colHeaderstr.appendChild(colHeaderStyle);
+
+          tbody.appendChild(colHeaderstr);
+  
           //for each route
           rock.routes.forEach((route) => {
               const tr = document.createElement('tr');
