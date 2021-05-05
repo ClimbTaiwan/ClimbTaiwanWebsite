@@ -157,28 +157,27 @@ const createCragCard = function(crag) {
           thead.classList.add('rockName');
           table.appendChild(thead);
           
-          //Routes
+          //Table body for each set out routes
           const tbody = document.createElement('tbody');
 
           //Add column headings
           const colHeaderstr = document.createElement('tr');
           const colHeaderName = document.createElement('th');
-          const colHeaderRating = document.createElement('th');
+          const colHeaderGrade = document.createElement('th');
           const colHeaderStyle = document.createElement('th');
           const colHeaderNameText = document.createTextNode('Name')
-          const colHeaderRatingText = document.createTextNode('Rating');
+          const colHeaderGradeText = document.createTextNode('Grade');
           const colHeaderStyleText = document.createTextNode('Style');
 
           colHeaderName.appendChild(colHeaderNameText);
-          colHeaderRating.appendChild(colHeaderRatingText);
+          colHeaderGrade.appendChild(colHeaderGradeText);
           colHeaderStyle.appendChild(colHeaderStyleText);
 
           colHeaderstr.appendChild(colHeaderName);
-          colHeaderstr.appendChild(colHeaderRating);
+          colHeaderstr.appendChild(colHeaderGrade);
           colHeaderstr.appendChild(colHeaderStyle);
 
           tbody.appendChild(colHeaderstr);
-  
           //for each route
           rock.routes.forEach((route) => {
               const tr = document.createElement('tr');
