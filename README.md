@@ -9,6 +9,8 @@
 
 > This website was built with HTML, CSS, vanilla Javascript, and the Bootstrap library.
 
+> View the website here: www.climbtaiwan.com
+
 ## Author
 
 👤 **Luke Gronert**
