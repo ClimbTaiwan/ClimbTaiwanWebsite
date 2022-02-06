@@ -18,4 +18,4 @@
 * Website: www.lukegronert.com
 * Twitter: [@bromericano1](https://twitter.com/bromericano1)
 * Github: [@lukegronert](https://github.com/lukegronert)
-* LinkedIn: [@Luke Gronert](https://linkedin.com/in/Luke Gronert)
+* LinkedIn: [@Luke Gronert](https://linkedin.com/in/lukegronert)
