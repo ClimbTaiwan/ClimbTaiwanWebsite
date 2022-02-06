@@ -7,8 +7,6 @@
 
 > Climb Taiwan is an outdoor rock climbing website that provides information and resources for rock climbing enthusiasts that that visiting or living in Taiwan.
 
-### 🏠 [Homepage](www.climbtaiwan.com)
-
 > This website was built with HTML, CSS, vanilla Javascript, and the Bootstrap library.
 
 ## Author
